@@ -1,0 +1,195 @@
+@media (min-width: 481px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 1024px) {
+	:root {
+		--header-height: 78px;
+		--font-size-title-1: 49px;
+		--font-size-title-2: 28px;
+		--font-size-title-3: 20px;
+		--font-size-title-4: 18px;
+		--font-size-title-5: 16px;
+		--font-size-title-6: 14px;
+
+	}
+	.intro {
+		padding: 20px 0;
+	}
+	.row .row__col:not(:last-child) {
+		margin-bottom: 24px;
+	}
+	.row__col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.course__col {
+		flex: 0 0 50%;
+		max-width: 50%;
+		text-align: center;
+	}
+	.btn {
+		padding: 6px 20px;
+		min-height: 20px;
+		font-size: 14px;
+	}
+	.intro__row .row__col:nth-child(2) {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+		order: -1;
+	}
+	.intro__row .row__col:nth-child(1) {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 0;
+	}
+	.intro__price {
+		font-size: 20px;
+	}
+	.intro__price span {
+		font-size: 14px;
+	}
+	.header__title {
+		font-size: 10px;
+	}
+	.header__title-link {
+		font-size: 10px;
+	}
+	body.is-show-dropdown .header__nav {
+		overflow: auto !important;
+	}
+	.header__head {
+		padding: 8px 0;
+	}
+	.header__content {
+		height: 50px;
+	}
+	.header__content-title {
+		display: none;
+	}
+	.header__toggles {
+		display: block;
+	}
+	.header__content-title {
+		font-size: 14px;
+	}
+	.info {
+		padding: 20px 0;
+	}
+	.info__row .row__col:not(:last-child) {
+		margin: 0 0 20px 0;
+	}
+	.podcast__title {
+		text-align: center;
+	}
+	.learn__content {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.included__title {
+		margin-bottom: 20px;
+	}
+	.included-item__title {
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+	.info-card__icon {
+		display: block;
+		margin: 0 auto;
+	}
+	.questions,
+	.quote,
+	.course,
+	.curriculum,
+	.learn {
+		padding: 40px 0;
+	}
+	.learn__row:not(:last-child) {
+    	margin-bottom: 40px;
+    }
+    .footer__row .row__col--6:nth-child(1) {
+    	max-width: 100% !important;
+	}
+
+	.footer__row .row__col--6:nth-child(2) {
+		max-width: 100% !important;
+	}
+	.podcast__description {
+		padding: 0;
+	}
+	.podcast__row {
+		margin: 0 -30px;
+	}
+	.podcast__card {
+		padding: 40px 15px;
+	}
+	.podcast__btn {
+		font-size: 25px;
+	}
+	.podcast__card-title {
+		font-size: 40px;
+	}
+	.reviews__card {
+		margin-right: 0;
+	}
+	.header__logo,
+	.header__btn {
+		flex: 0 0 140px;
+	}
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+	.header__content-title {
+		display: none;
+	}
+	.intro__picture {
+    	margin-bottom: 20px;
+	}
+	.intro__btn-list {
+		flex-direction: column;
+	}
+	.intro__btn-list .intro__btn {
+		width: 100%;
+	}
+	.intro__btn-list .intro__btn:not(:last-child) {
+		margin-bottom: 10px;
+	}
+	.reviews__card {
+		padding: 18px;
+	}
+}
+
+@media (max-width: 575px) {
+	.course__col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.header__logo,
+	.header__btn {
+		flex: 0 0 100px;
+	}
+}
+
+@media (max-width: 480px) {
+}
